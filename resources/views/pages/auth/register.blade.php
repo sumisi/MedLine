@@ -30,6 +30,42 @@
                 placeholder="email@example.com"
             />
 
+            <flux:input
+                name="last_name"
+                :label="__('last_name')"
+                :value="old('last_name')"
+                type="text"
+                required
+                autocomplete="last_name"
+            />
+
+            <flux:input
+                name="middle_name"
+                :label="__('middle_name')"
+                :value="old('middle_name')"
+                type="text"
+                required
+                autocomplete="middle_name"
+            />
+
+            <flux:input
+                name="phone"
+                :label="__('phone')"
+                :value="old('phone')"
+                type="text"
+                required
+                autocomplete="phone"
+            />
+
+            <flux:input
+                name="login"
+                :label="__('login')"
+                :value="old('login')"
+                type="text"
+                required
+                autocomplete="login"
+            />
+
             <!-- Password -->
             <flux:input
                 name="password"
